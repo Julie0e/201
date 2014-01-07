@@ -21,6 +21,13 @@
 		00A15919187BE52B0018F151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A158FB187BE52B0018F151 /* UIKit.framework */; };
 		00A15921187BE52B0018F151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A1591F187BE52B0018F151 /* InfoPlist.strings */; };
 		00A15923187BE52B0018F151 /* _01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A15922187BE52B0018F151 /* _01Tests.m */; };
+		00A15938187BEB210018F151 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A15933187BEB210018F151 /* volleyball.png */; };
+		00A15939187BEB210018F151 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A15934187BEB210018F151 /* football.png */; };
+		00A1593A187BEB210018F151 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A15935187BEB210018F151 /* basketball.png */; };
+		00A1593B187BEB210018F151 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A15936187BEB210018F151 /* baseball.png */; };
+		00A1593C187BEB210018F151 /* rugbyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A15937187BEB210018F151 /* rugbyball.png */; };
+		00A1593F187BF0780018F151 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A1593E187BF0780018F151 /* Product.m */; };
+		00A15946187BF2420018F151 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A15945187BF2420018F151 /* ProductCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		00A1591E187BE52B0018F151 /* 201Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "201Tests-Info.plist"; sourceTree = "<group>"; };
 		00A15920187BE52B0018F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00A15922187BE52B0018F151 /* _01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01Tests.m; sourceTree = "<group>"; };
+		00A15933187BEB210018F151 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
+		00A15934187BEB210018F151 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		00A15935187BEB210018F151 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		00A15936187BEB210018F151 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		00A15937187BEB210018F151 /* rugbyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyball.png; sourceTree = "<group>"; };
+		00A1593D187BF0780018F151 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		00A1593E187BF0780018F151 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		00A15940187BF1A90018F151 /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
+		00A15944187BF2420018F151 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		00A15945187BF2420018F151 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +133,11 @@
 				00A15907187BE52B0018F151 /* AppDelegate.m */,
 				00A15909187BE52B0018F151 /* Main.storyboard */,
 				00A1590C187BE52B0018F151 /* ViewController.h */,
+				00A15933187BEB210018F151 /* volleyball.png */,
+				00A15934187BEB210018F151 /* football.png */,
+				00A15935187BEB210018F151 /* basketball.png */,
+				00A15936187BEB210018F151 /* baseball.png */,
+				00A15937187BEB210018F151 /* rugbyball.png */,
 				00A1590D187BE52B0018F151 /* ViewController.m */,
 				00A1590F187BE52B0018F151 /* Images.xcassets */,
 				00A158FE187BE52B0018F151 /* Supporting Files */,
@@ -126,6 +148,11 @@
 		00A158FE187BE52B0018F151 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00A15945187BF2420018F151 /* ProductCell.m */,
+				00A15944187BF2420018F151 /* ProductCell.h */,
+				00A15940187BF1A90018F151 /* CartDelegate.h */,
+				00A1593E187BF0780018F151 /* Product.m */,
+				00A1593D187BF0780018F151 /* Product.h */,
 				00A158FF187BE52B0018F151 /* 201-Info.plist */,
 				00A15900187BE52B0018F151 /* InfoPlist.strings */,
 				00A15903187BE52B0018F151 /* main.m */,
@@ -228,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A15939187BEB210018F151 /* football.png in Resources */,
 				00A15910187BE52B0018F151 /* Images.xcassets in Resources */,
 				00A15902187BE52B0018F151 /* InfoPlist.strings in Resources */,
 				00A1590B187BE52B0018F151 /* Main.storyboard in Resources */,
+				00A1593C187BEB210018F151 /* rugbyball.png in Resources */,
+				00A1593A187BEB210018F151 /* basketball.png in Resources */,
+				00A1593B187BEB210018F151 /* baseball.png in Resources */,
+				00A15938187BEB210018F151 /* volleyball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A15946187BF2420018F151 /* ProductCell.m in Sources */,
+				00A1593F187BF0780018F151 /* Product.m in Sources */,
 				00A1590E187BE52B0018F151 /* ViewController.m in Sources */,
 				00A15908187BE52B0018F151 /* AppDelegate.m in Sources */,
 				00A15904187BE52B0018F151 /* main.m in Sources */,
@@ -460,6 +494,7 @@
 				00A15928187BE52B0018F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A15929187BE52B0018F151 /* Build configuration list for PBXNativeTarget "201Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +503,7 @@
 				00A1592B187BE52B0018F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
